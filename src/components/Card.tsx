@@ -17,7 +17,7 @@ const Card: React.FC<CardProps> = ({tag,icon}) => {
         </div>
        </div>
        <div className=" h-[20%] flex justify-between items-center z-20">
-        <div className="text-xl w-[60%]    leading-6 group-hover:text-black">{tag}</div>
+        <div className="text-xl w-[60%]  leading-6 group-hover:text-black">{tag}</div>
         <div className="bg-white group-hover:bg-black rounded-full h-11 w-11 flex justify-center items-center">
         <svg className="w-4 h-4 text-black group-hover:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M1 5h12m0 0L9 1m4 4L9 9"/>
